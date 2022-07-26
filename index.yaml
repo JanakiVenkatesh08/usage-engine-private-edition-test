@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-26T20:48:30.320656+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 482fcfcd6857b7c0e85fb6655c8b65c42a0a2f9b86020ead2b4a89e94b3d1b1e
+    name: demo
+    type: application
+    urls:
+    - https://github.com/digitalroute/test-charts/releases/download/demo-0.2.0/demo-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-07-26T20:48:30.320665+02:00"
