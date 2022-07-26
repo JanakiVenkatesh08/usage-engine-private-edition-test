@@ -1,3 +1,14 @@
 apiVersion: v1
-entries: {}
-generated: "2022-07-26T21:21:24.791319+02:00"
+entries:
+  demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-26T22:15:45.022178+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 71bdbca0c2865337b169f3769e7601192ef0b1d5fa90cac97ca0a042c2f33b01
+    name: demo
+    type: application
+    urls:
+    - https://github.com/DigitalRoute-Public/usage-engine-private-edition-test/releases/download/demo-0.3.0/demo-0.3.0.tgz
+    version: 0.3.0
+generated: "2022-07-26T22:15:45.022189+02:00"
