@@ -32,6 +32,26 @@ entries:
     urls:
     - https://github.com/DigitalRoute-Public/usage-engine-private-edition-test/releases/download/usage-engine-private-edition-2.2.0-test1/usage-engine-private-edition-2.2.0-test1.tgz
     version: 2.2.0-test1
+  - apiVersion: v2
+    appVersion: 2.2.0
+    created: "2022-07-27T14:43:36.673928588+02:00"
+    dependencies:
+    - alias: ingress-nginx-v4
+      condition: ingress-nginx-v4.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.0.17
+    - alias: mzOperator
+      condition: mzOperator.enabled
+      name: usage-engine-private-edition-operator
+      repository: https://artifactory.digitalroute.com/artifactory/mz10-charts/
+      version: 2.2.0-test1
+    description: The Usage Engine Private Edition helm chart
+    digest: 79861cf13201067262458d08902307b880fd81265be39768f0a3145402c4dd05
+    name: usage-engine-private-edition
+    urls:
+    - https://github.com/DigitalRoute-Public/usage-engine-private-edition-test/releases/download/usage-engine-private-edition-2.2.0-test1/usage-engine-private-edition-2.2.0-test1.tgz
+    version: 2.2.0-test1
   usage-engine-private-edition-operator:
   - apiVersion: v2
     appVersion: 2.2.0
@@ -43,4 +63,14 @@ entries:
     urls:
     - https://github.com/DigitalRoute-Public/usage-engine-private-edition-test/releases/download/usage-engine-private-edition-operator-2.2.0-test1/usage-engine-private-edition-operator-2.2.0-test1.tgz
     version: 2.2.0-test1
-generated: "2022-07-27T14:04:28.379455509+02:00"
+  - apiVersion: v2
+    appVersion: 2.2.0
+    created: "2022-07-27T14:43:36.867561706+02:00"
+    description: The Usage Engine Private Edition Operator helm chart
+    digest: 7d0a383f35fb94e08af59152f309d5dc09177a3f84fd5e2252dd99bb2de08bbf
+    name: usage-engine-private-edition-operator
+    type: application
+    urls:
+    - https://github.com/DigitalRoute-Public/usage-engine-private-edition-test/releases/download/usage-engine-private-edition-operator-2.2.0-test1/usage-engine-private-edition-operator-2.2.0-test1.tgz
+    version: 2.2.0-test1
+generated: "2022-07-27T14:43:36.867682535+02:00"
